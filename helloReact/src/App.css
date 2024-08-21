@@ -1,32 +1,157 @@
 
-.titulo1{
+body{
 
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+html{
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+
+.divTopo{
+
+    height: 20%;
+    width: 100%;
     
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    margin-top: 20px;
+
+    background-color: rgb(109, 7, 122);
+    display: flex;
+    
+
+
+}
+
+.divTopoEsquerda{
+
+
+    height: 100%;
+    width: 50%;
+    
+    background-color: rgb(43, 155, 155);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+
+.texto{
+
+        
+    height: 30%;
+    width: 60%;
     font-size: 60px;
-    color: rgb(43, 124, 79);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(196, 243, 255);
-    transition: 0.6s;
+    font-weight: 700;
+    color: rgb(42, 44, 17);
     
 }
 
-.titulo1:hover{
 
 
-    transition: 0.6s;
-    color: rgb(122, 155, 1);
+    .btn{
+
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 21px;
+        height: 30%;
+        width: 36%;
+        color: rgb(34, 28, 23);
+        background-color: rgb(94, 129, 90);
+        border-radius: 5px;
+        border-style: hidden;
+        border-width: 2px;
+        border-color: rgb(85, 78, 54);
+        cursor: pointer;
+        transition: 0.2s;
+       
+        
+    
+    }
+    
+    .btn:hover{
+
+
+        background-color: rgb(159, 204, 133);
+        color: aliceblue;
+        transition: 0.4s;
+    }
+
+    .btn:active{
+
+
+        font-size: 23px;
+        transition: 0.1s;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+    
+
+
+.divTopoDireita{
+
+    height: 100%;
+    width: 50%;
+    background-color: rgb(59, 159, 163);
+   
+    
+
 }
-.paragrafo{
+
+
+.divMeio{
+
+
+    height: 40%;
+    width: 100%;
+
+
+    background-color: rgb(79, 114, 99);
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
 
     
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    font-size: 30px;
-    color: rgb(43, 124, 79);
+
+
+.divBaixo{
+
+
+    height: 40%;
+    width: 100%;
+    
+
+    background-color: rgb(43, 83, 66);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+    
+
+}
+
+.textoDois{
+
+    height: 40%;
+    width: 50%;
+    font-size: 27px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(196, 243, 255);
+    font-weight: 700;
+    color: rgb(42, 44, 17);
+    margin-bottom: 56px;
     
 }
