@@ -1,0 +1,64 @@
+.Header-Container{
+
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(rgb(202, 255, 220), rgb(153, 236, 194), rgb(153, 236, 208));
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.Header-titulo{
+
+    height: 50%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(65, 129, 39);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.btn{
+
+    color: rgb(91, 117, 69);
+    font-size: 30px;
+    border-radius: 15px;
+    border-style: hidden;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: rgb(89, 180, 153);
+    background-color: rgb(164, 224, 172);
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 20%;
+    width: 10%;
+    cursor: pointer;
+    
+    transition: 0.3s;
+    
+}
+
+.btn:hover{
+
+    transition: 0.2s;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    outline-width: 5px;
+    height: 21%;
+    width: 11%;
+
+}
+
+.btn:active{
+
+    transition: 0.2s;
+ font-size: 35px;
+ outline-width: 5px;
+ height: 21%;
+ width: 11%;
+}
