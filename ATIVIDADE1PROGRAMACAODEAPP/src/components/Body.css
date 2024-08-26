@@ -1,0 +1,66 @@
+
+.Body-Container{
+
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    height: 50%;
+
+}
+.Body-ContainerEsquerda{
+
+    background: linear-gradient(rgb(233, 106, 126), var(--cor-4));
+    
+    height: 100%;
+    width: 4%;
+}
+
+.Body-ContainerMeio{
+
+    border-radius: 45px;
+    padding: 35px;
+    height: 80%;
+    width: 70%;
+    margin-left: 180px;
+    margin-right: 180px;
+   
+    background-color: var(--cor-2);
+    
+
+}
+
+.lblIntroducao{
+    padding-top: 10px;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    font-size: 90px;
+    font-family: "farmarciaFonte";
+    color: var(--cor-1);
+    background-color: var(--cor-2);
+    height: 60%;
+}
+
+.lblTexto{
+
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    font-size: 28px;
+    font-family: "farmarciaFonte";
+    color: var(--cor-1);
+    background-color: var(--cor-2);
+    padding-bottom: 70px;
+    height: 0%;
+    border-radius: 70px;
+
+}
+
+.Body-ContainerDireita{
+
+    
+    height: 100%;
+    background: linear-gradient(rgb(233, 106, 126), var(--cor-4));
+    
+    width: 4%;
+    
+}

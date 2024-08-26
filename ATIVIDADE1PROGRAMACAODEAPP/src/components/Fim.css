@@ -1,0 +1,63 @@
+.Fim-Container{
+    display: flex;
+}
+
+
+.Fim-ContainerEsquerda{
+    background-color:var(--cor-4);
+    width: 4%;
+}
+
+.Fim-ContainerMeio{
+    background: linear-gradient(var(--cor-5), var(--cor-2));
+    width: 100%;
+    
+justify-content: start;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+
+.Fim-ContainerDireita{
+    background-color:var(--cor-4);
+    width: 4%;
+}
+
+.FimTexto{
+
+    padding: 20px;
+    font-size: 25px;
+color: var(--cor-4);
+font-family: "FarmarciaFonte";
+width: 50%;
+height: 33%;
+border-radius: 19px;
+background-color: var(--cor-2);
+
+
+}
+
+.lblFim{
+
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    margin-top: 20%;
+    padding: 24px;
+    font-size: 13px;
+color: var(--cor-4);
+font-family: "FarmarciaFonte";
+width: 50%;
+height: 33%;
+border-radius: 19px;
+}
+
+.LogoFim{
+
+    height: 20%;
+    width: 10%;
+    border-radius: 20px;
+}

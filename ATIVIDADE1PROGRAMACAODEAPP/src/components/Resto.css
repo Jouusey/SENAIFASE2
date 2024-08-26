@@ -1,0 +1,41 @@
+.Resto-Container{
+    
+   background: linear-gradient(var(--cor-2));
+    display: flex;
+    height: 50%;
+
+}
+
+
+.Resto-ContainerEsquerda{
+    background-color:var(--cor-4);
+    width: 4%;
+}
+
+.Resto-ContainerMeio{
+    width: 100%;
+    justify-content: center;
+    
+    background-color: var(--cor-5);
+    
+    display: flex;
+
+}
+.Resto-ContainerDireita{
+    width: 4%;
+    background-color: var(--cor-4);
+}
+
+.CAMISAPRETA{
+
+    height: 90%;
+    width: 40%;
+    border-radius: 20px;
+    margin-right: 18px;
+}
+.CAMISAS{
+    height: 90%;
+    border-radius: 20px;
+    width: 40%;
+
+}

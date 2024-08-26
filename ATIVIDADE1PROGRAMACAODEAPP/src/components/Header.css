@@ -1,0 +1,29 @@
+.Header-Container{
+
+  
+    background-color: rgb(230, 230, 230);
+    display: flex;
+}
+
+.Header-ContainerEsquerda{
+    background-color: rgb(233, 106, 126);
+    width: 4%;
+    border-top-right-radius: 15px;
+}
+
+
+.Header-ContainerDireita{
+    width: 4%;
+    background-color: rgb(233, 106, 126);
+    border-top-left-radius: 15px;
+}
+
+.Titulo{
+
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    color: rgb(116, 29, 29);
+    font-family: "FarmarciaFonte";
+
+}

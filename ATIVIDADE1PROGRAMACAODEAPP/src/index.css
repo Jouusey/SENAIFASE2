@@ -1,0 +1,22 @@
+*{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--cor-5), var(--cor-2);
+}
+
+:root{
+  --cor-1: rgb(226, 62, 87);
+  --cor-2: rgb(255, 255, 255);
+  --cor-3: rgb(233, 106, 126);
+  --cor-4: rgb(206, 31, 58);
+  --cor-5: rgb(230, 230, 230);
+  --cor-6: #ef97a4;
+}
+
+@font-face {
+  font-family: "FarmarciaFonte";
+  src: url(./fonts/mollen/Mollen-Personal-Use-Bold.otf);
+}
