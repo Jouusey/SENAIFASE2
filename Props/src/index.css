@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+@font-face {
+  font-family: "FISH";
+  src: url(public/fonts/non-watercolor/Non watercolor.ttf);
+}
