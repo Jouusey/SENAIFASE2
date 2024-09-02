@@ -5,11 +5,11 @@ import Cadastro from './Cadastro'
 import Sorteio from './Sorteio'
 function Home() {
   return (
-    <div>
-      <Titulo texto={"Lagostas"} emoji={"🦞"}/>
-      <h2 className='Home-style'>Venda seus crustaceos!!</h2>
-    
-      
+    <div className='lago-con'>
+      <Titulo texto={"Lagostas"} emoji={"🦞"} />
+      <h2 className='Home-style'>Veja quantos crustaceos você pode vender!!</h2>
+
+
     </div>
   )
 }

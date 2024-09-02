@@ -1,9 +1,10 @@
 .Titulo-Container{
-    color: rgb(197, 48, 21);
+    color: rgb(100, 30, 17);
     background-color: rgb(250, 230, 211);
     border-radius: 8px;
     font-family: "FISH";
     font-size: 30px;
+    margin-top: 20px;
     height: 10%;
     width: 30%;
     justify-content: center;

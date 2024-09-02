@@ -12,8 +12,7 @@ function Cadastrar(){
 function Cadastro() {
   return (
     <div className='Cadastro-container'>
-        
-
+   
         
     </div>
   )

@@ -1,26 +1,56 @@
 import Titulo from "../components/Titulo"
+import './Sorteio.css'
 
 
-function Sortear(){
+import { useState } from "react"
 
-    let numeroAleatorio = Math.floor(Math.random() * 10)
-    
-    alert(`VENDEU ${numeroAleatorio}`)
+
+
+
+
+export default function Sorteio() {
+
+  
+ const [numero, setNumero] = useState()
+
+  function sortear(){
+  
+
+      let numeroAleatorio = Math.floor(Math.random() * 10)
+
+      setNumero(numeroAleatorio) 
+
+      alert(`VENDEU ${numeroAleatorio}`)
     
 }
 
-export default function Sorteio(props) {
+function aumentar(){
+    setNumero(numero + 1)
+}
+
+function diminuir(){
+    setNumero(numero - 1)
+}
+
   return (
     <div className="Sorteio-container">
-
-     
-        
-
-<h1> {props.texto}
-</h1>
-
-        <button onClick={Sortear} className="btn" >Sorteio</button>
     
+    <button onClick={aumentar}>+</button>
+
+        <button onClick={sortear} className="btn" >VENDER</button>
+        
+        <div className="numeroaleatorio">
+       
+        </div>
+
+    <button onClick={diminuir}>-</button>
+    
+    <div className="RESULTADO">
+
+    {numero}
+    </div>
+
+
     </div>
   )
 }
