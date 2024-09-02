@@ -13,9 +13,9 @@ function App() {
     <>
     {/*  <Home />
      <Cadastro />
-     <Sorteio /> */}
-     <Dado />{/* 
-     <Exercicios /> */}
+     <Sorteio /> 
+     <Dado />*/}
+     <Exercicios /> 
     </>
   )
 }
