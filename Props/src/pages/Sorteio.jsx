@@ -37,7 +37,7 @@ function diminuir(){
     
     <button onClick={aumentar}>+</button>
 
-        <button onClick={sortear} className="btn" >VENDER</button>
+        <button onClick={sortear} className="btn" >{numero}</button>
         
         <div className="numeroaleatorio">
        
@@ -47,7 +47,6 @@ function diminuir(){
     
     <div className="RESULTADO">
 
-    {numero}
     </div>
 
 

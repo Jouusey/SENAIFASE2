@@ -1,0 +1,82 @@
+.chapas-container{
+
+}
+
+.chapasED{
+
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90%;
+    width: 100%;
+
+}
+
+.chapaEsquerda-container{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    height: 100%;
+}
+
+.chapaDireita-container{
+
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    height: 100%;
+}
+
+.resultadoDiv{
+
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 10%;
+
+}
+
+.h1Texto{
+
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttonChapa{
+
+
+
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 400px;
+    border-width: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.div-idade{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

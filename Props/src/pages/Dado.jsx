@@ -1,6 +1,6 @@
 
 import { useState } from "react"
-import Titulo from "./components/Titulo";
+import Titulo from "../components/Titulo";
 import './Dado.css' 
 
 
@@ -10,6 +10,7 @@ import './Dado.css'
  import { BsDice4 } from "react-icons/bs";
  import { BsDice5 } from "react-icons/bs";
  import { BsDice6 } from "react-icons/bs";
+
 
 export default function Dado() {
 

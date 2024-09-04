@@ -14,7 +14,7 @@
     height: 50%;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(65, 129, 39);
+    color: rgb(27, 77, 66);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -46,7 +46,7 @@
 .btn:hover{
 
     transition: 0.2s;
-    color: rgb(0, 0, 0);
+    color: rgb(109, 105, 51);
     font-size: 35px;
     outline-width: 5px;
     height: 21%;
