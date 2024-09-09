@@ -27,18 +27,18 @@ function App() {
 
   return (
     <>
-    {/*  <Home />
+     {/* <Home />
      <Cadastro />
      <Sorteio />  
-     <Dado />    
+     <Dado />   */}  
      <Exercicios />    
      <ExercicioDois />
      <ExercicioTres /> 
      <ExercicioQuatro />  
      <ExercicioCinco /> 
      <ExercicioSeis />
-     <ExercicioSete /> */}
-     <InputTeste />
+     <ExercicioSete /> 
+     {/* <InputTeste /> */}
     
     </>
   )

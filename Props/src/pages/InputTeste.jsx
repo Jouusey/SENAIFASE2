@@ -1,20 +1,33 @@
 import react, {useState} from 'react'
-
+import './InputTeste.css'
 function InputTeste() {
 
 
-    function mudouCelcius(event) {     
+    const[inputCelcius, setInputCelcius] = useState()
+    const[fahrenheit, setFahrenheit] = useState()
+
+
+    function mudouCelcius(event) {    
+        console.log(event)
+        setInputCelcius(event.target.value) 
     }
 
 
 
-    const[inputCelcius, setInputCelcius] = useState()
+    function converterCparaF() {
+
+
+        let f = inputCelcius * 1.8 + 32
+        setFahrenheit("" + f)
+        
+        
+    }
 
 
 
 
   return (
-    <div>
+    <div className='div-inputs'>
       
       <center>
    
@@ -22,7 +35,9 @@ function InputTeste() {
       value={inputCelcius} 
       onChange={mudouCelcius}/>
 
-      <button>CONVERTER</button>
+      <button onClick={converterCparaF} >CONVERTER</button>
+
+      <p>{fahrenheit} </p>
 
     </center>
 
