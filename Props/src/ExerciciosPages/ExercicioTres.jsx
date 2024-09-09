@@ -15,16 +15,13 @@ function ExercicioTres() {
 
         if(!isNaN(tempCelcius)){
             
-
             TempFahrenheit = (tempCelcius * 1.8) + 32
     
-            
             setTemp(`TEMPERATURA EM FAHRENHEIT: ${(TempFahrenheit).toFixed(0)} TEMPERATURA EM CELCIUS: ${(tempCelcius).toFixed(0)}`)
     
 
 
         }else {
-
 
             setTemp(`EI, BOTÁ UM NUMERO VALIDO AI.`)
         }
@@ -43,16 +40,13 @@ function ExercicioTres() {
            
         TempFahrenheit = Number(prompt("Qual a temperatura, em FAHRENHEIT?"))
 
-
-        
         if(!isNaN(TempFahrenheit)){
             
-
 
         tempCelcius = (TempFahrenheit - 32) * (5/9)
 
         
-        setTemp(`TEMPERATURA EM CELCIUS: ${(tempCelcius).toFixed(0)} TEMPERATURA EM FAHRENHEIT: ${(TempFahrenheit).toFixed(0)}`)
+        setTemp(`TEMPERATURA EM CELSIUS: ${(tempCelcius).toFixed(0)} TEMPERATURA EM FAHRENHEIT: ${(TempFahrenheit).toFixed(0)}`)
         
 
         
@@ -82,7 +76,7 @@ function ExercicioTres() {
 
     <div className='temp-container'>
         <h1>TEMPERATURA</h1>
-      <button className='buttonTemp' onClick={celciusparafahrenheit}>CELCIUS PARA FAHRENHEIT</button> 
+      <button className='buttonTemp' onClick={celciusparafahrenheit}>CELSIUS PARA FAHRENHEIT</button> 
       <button className='buttonTemp' onClick={fahrenheitparacelcius}>FAHRENHEIT PARA CELCIUS</button>
 
       
