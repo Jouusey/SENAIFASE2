@@ -11,6 +11,7 @@ import ExercicioDois from './ExerciciosPages/ExercicioDois'
 import ExercicioCinco from './ExerciciosPages/ExercicioCinco'
 import ExercicioSeis from './ExerciciosPages/ExercicioSeis'
 import ExercicioSete from './ExerciciosPages/ExercicioSete'
+import InputTeste from './pages/InputTeste'
 
 
 function App() {
@@ -25,18 +26,19 @@ function App() {
 
 
   return (
-    <>{/* 
-     <Home />
+    <>
+    {/*  <Home />
      <Cadastro />
      <Sorteio />  
-     <Dado />    */}
+     <Dado />    
      <Exercicios />    
      <ExercicioDois />
      <ExercicioTres /> 
      <ExercicioQuatro />  
      <ExercicioCinco /> 
      <ExercicioSeis />
-     <ExercicioSete />
+     <ExercicioSete /> */}
+     <InputTeste />
     
     </>
   )

@@ -63,19 +63,16 @@ function ExercicioTres() {
 
 
 
-
-
-
-
-
-
-
-
+    
   return (
 
 
     <div className='temp-container'>
         <h1>TEMPERATURA</h1>
+
+    
+
+
       <button className='buttonTemp' onClick={celciusparafahrenheit}>CELSIUS PARA FAHRENHEIT</button> 
       <button className='buttonTemp' onClick={fahrenheitparacelcius}>FAHRENHEIT PARA CELCIUS</button>
 
