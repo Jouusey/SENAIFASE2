@@ -95,7 +95,7 @@ function calcularExp(){
 
 
 
-                <label className='h1Texto'> PRESIDENTE: Ruizo Lemão-43</label>
+                <label className='h1Texto'> PRESIDENTE: Ruizo Lemão-43 ANOS</label>
                     <label className='h1Texto'> VICE PRESIDENTE: Gerinbaldio Gomez-10 ANOS </label>
                     <div className='div-idade'>
 

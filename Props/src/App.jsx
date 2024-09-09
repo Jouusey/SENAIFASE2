@@ -8,6 +8,9 @@ import Exercicios from './ExerciciosPages/Exercicios'
 import ExercicioTres from './ExerciciosPages/ExercicioTres'
 import ExercicioQuatro from './ExerciciosPages/ExercicioQuatro'
 import ExercicioDois from './ExerciciosPages/ExercicioDois'
+import ExercicioCinco from './ExerciciosPages/ExercicioCinco'
+import ExercicioSeis from './ExerciciosPages/ExercicioSeis'
+import ExercicioSete from './ExerciciosPages/ExercicioSete'
 
 
 function App() {
@@ -30,7 +33,10 @@ function App() {
      <Exercicios />    
      <ExercicioDois />
      <ExercicioTres /> 
-     <ExercicioQuatro />   
+     <ExercicioQuatro />  
+     <ExercicioCinco /> 
+     <ExercicioSeis />
+     <ExercicioSete />
     
     </>
   )

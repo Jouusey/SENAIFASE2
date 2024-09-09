@@ -19,7 +19,7 @@ function ExercicioTres() {
             TempFahrenheit = (tempCelcius * 1.8) + 32
     
             
-            setTemp(`TEMPERATURA EM FAHRENHEIT: ${TempFahrenheit} TEMPERATURA EM CELCIUS: ${tempCelcius}`)
+            setTemp(`TEMPERATURA EM FAHRENHEIT: ${(TempFahrenheit).toFixed(0)} TEMPERATURA EM CELCIUS: ${(tempCelcius).toFixed(0)}`)
     
 
 
@@ -52,7 +52,7 @@ function ExercicioTres() {
         tempCelcius = (TempFahrenheit - 32) * (5/9)
 
         
-        setTemp(`TEMPERATURA EM CELCIUS: ${tempCelcius} TEMPERATURA EM FAHRENHEIT: ${TempFahrenheit}`)
+        setTemp(`TEMPERATURA EM CELCIUS: ${(tempCelcius).toFixed(0)} TEMPERATURA EM FAHRENHEIT: ${(TempFahrenheit).toFixed(0)}`)
         
 
         

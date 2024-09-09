@@ -1,5 +1,6 @@
 .chapas-container{
 
+    background-color: none;
 }
 
 .chapasED{
@@ -70,6 +71,8 @@
     border-width: 2px;
     margin-top: 10px;
     border-radius: 3px;
+    
+    margin-bottom: 30px;
 }
 
 .div-idade{
