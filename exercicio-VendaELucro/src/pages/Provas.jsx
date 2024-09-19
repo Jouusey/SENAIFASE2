@@ -20,7 +20,7 @@ function Provas() {
         if( !isNaN(provaInput) && !isNaN(provaInputDois) && provas.length < 2 && provaInput <= 10 && provaInputDois <= 10 && provaInput >= 0 && provaInputDois >= 0){
 
 
-            mediaProvas = (provaInput + provaInputDois) / 2
+            mediaProvas = (Number(provaInput) + Number(provaInputDois)) / 2
 
             provas.push(provaInput, provaInputDois)
 
@@ -74,7 +74,6 @@ function Provas() {
                                              
                                              case provas[1] >= 0 && provas[1] <= 4:
                                                  provas[1] = "E"
-                                                 alert("afffffffffffffs")
                                                  break;
  
              }
@@ -90,7 +89,7 @@ function Provas() {
         if(provas.length == 2){
 
 
-            setResultado(`A média é: ${mediaProvas}, A primeira nota fou um ${provas[0]} e a segunda nota foi um ${provas[1]}`)
+            setResultado(`A média é: ${mediaProvas},  A primeira nota fou um ${provas[0]} e a segunda nota foi um ${provas[1]}`)
 
         }
 
@@ -140,7 +139,7 @@ function Provas() {
 
                                             <div className="inputNotas">
 
-                                            <input className='inpt' value={provaInput} type="number" onChange={inputNotaMudar}/>   <input className='inpt' value={provaInputDois} type="number" onChange={inputNotaMudarDois}/>
+                                            <input className='inpt' value={provaInput} type="text" onChange={inputNotaMudar}/>   <input className='inpt' value={provaInputDois} type="text" onChange={inputNotaMudarDois}/>
 
                                             </div>
 

@@ -73,13 +73,14 @@ height: 50%;
 .inpt{
 
 
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     border: none;
     height: 40%;
     width: 4%;
     border-radius: 3px;
     margin: 7px;
+    outline: none;
     
 }
 
