@@ -3,6 +3,7 @@ import './AtividadeUm.css'
 
 
 let contador = 0
+let populacaoTotal = 0
 let homensTotal  = 0
 let mulheresTotal = 0
 
@@ -12,7 +13,7 @@ let alturaMedia = 0
 let alturaTotalHomens = 0
 let alturaTotalMulheres = 0
 
-let alturaMediaHomems = 0
+let alturaMediaHomens = 0
 let alturaMediaMulheres = 0
 
 
@@ -21,6 +22,8 @@ let alturaVector = []
 
 let maiorAltura = 0
 let menorAltura = 99999999
+
+let porcentagemDeHomens
   
 
 
@@ -57,77 +60,89 @@ function AtividadeUm() {
 
       alturaVector.push(altura)
 
-      switch(true){
+
+        switch(true){
   
-        case genero == "Mulher":
-        alturaTotalMulheres = alturaTotalMulheres + Number(altura)
-        mulheresTotal++
-        
-        break;
+          case genero == "Mulher":
+          alturaTotalMulheres = alturaTotalMulheres + Number(altura)
+          mulheresTotal++
           
-         
-        case genero == "Homen":
-        alturaTotalHomens = alturaTotalHomens + Number(altura)
-        homensTotal++
-  
-        break;
-      }
-  
-  
-      contador++
-      console.log(contador)
-
-  
-      if(contador == 10){
-  
-        
-  
-        for (let index = 0; index < 10; index++) {
-  
-          alturaTotal = alturaTotal + Number(alturaVector[index])
-         
-        }
-
-        
-
-        
-
-        for (let i = 0; i < 10; i++) {
-        
-      if( alturaVector[i] > maiorAltura ){
-
-
-        maiorAltura = Number(alturaVector[i])
-
-
-
-
-      }
-        }
-
-
-
-  
-        alturaMedia = alturaTotal / 10
-
-        alturaMediaMulheres = alturaTotalMulheres / mulheresTotal
-
-
-        alturaMediaHomems = alturaTotalHomens / homensTotal
-
+          break;
+            
+           
+          case genero == "Homem":
+          alturaTotalHomens = alturaTotalHomens + Number(altura)
+          homensTotal++
     
+          break;
+        }
+    
+    
+        contador++
+        console.log(contador)
   
-      alert("Mulheres totais: " + mulheresTotal)
-      alert('Homens totais:' + homensTotal)
-      alert('-Altura total das Mulheres: ' + alturaTotalMulheres + '-Altura total dos Homens: ' + alturaTotalHomens)
-      alert('Altura média de todos: ' + alturaMedia)
-      alert('Altura média das mulheres: ' + alturaMediaMulheres + '-Altura média dos homens: ' + alturaMediaHomems)
-      alert('A maoir altura: ' + maiorAltura)
+    
+        if(contador == 10){
+    
+          
+    
+          for (let index = 0; index < 10; index++) {
+    
+            alturaTotal = alturaTotal + Number(alturaVector[index])
+           
+          }
+  
+          
+  
+          
+  
+          for (let i = 0; i < 10; i++) {
+          
+        if( alturaVector[i] > maiorAltura ){
+  
+  
+          maiorAltura = Number(alturaVector[i])
+          
+  
+        } else if(alturaVector[i] < menorAltura){
+  
+          menorAltura = Number(alturaVector[i])
+  
+        }
+          }
+  
+  
+  
+    
+          alturaMedia = Number(alturaTotal / 10).toFixed(2)
+  
+          alturaMediaMulheres = Number(alturaTotalMulheres / mulheresTotal).toFixed(2)
+  
+  
+          alturaMediaHomens = Number(alturaTotalHomens / homensTotal).toFixed(2)
+  
+  
+          populacaoTotal = Number(homensTotal + mulheresTotal).toFixed(2)
+  
+          porcentagemDeHomens = (homensTotal / populacaoTotal) * 100
+      
+  
+    
+          setResultados('Porcentagem de homens: ' + porcentagemDeHomens + '%'+ 'A maior altura: ' + maiorAltura + ' A menor altura: ' + menorAltura + ' Altura média de todos: ' + alturaMedia + ' Altura média das mulheres: ' + alturaMediaMulheres)
+  
+  
+  
+    
+    
+
+
+
+
+
+
+
       }
-  
-  
-  
-  
+
   
     
 
@@ -152,7 +167,7 @@ function AtividadeUm() {
 
 
 
-<label className='lbl' >Qual seu gênero?</label>
+<label className='lbl' >Qual seu gênero? ("Homem" ou "Mulher")</label>
 <input value={genero} onChange={mudarGenero} type="text" />
 
 <label className='lbl' >Qual sua altura?</label>
