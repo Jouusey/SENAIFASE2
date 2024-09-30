@@ -1,0 +1,17 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* height: 99%;
+  width: 99%; */
+}
+
+html, body, #root{
+min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'oi';
+  src: url(public\mollen\Mollen Personal Use-Condensed.otf);
+}
