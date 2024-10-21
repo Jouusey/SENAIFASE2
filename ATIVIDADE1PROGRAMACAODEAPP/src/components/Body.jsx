@@ -1,5 +1,6 @@
 
 import "./Body.css"
+import WhoMarcia from "./WhoMarcia"
 
 function Body() {
   return (
@@ -15,7 +16,8 @@ function Body() {
 <label className="lblIntroducao">OLÁ A TODOS!</label>
 <label className="lblTexto">Quanta saudade! Lorem ipsum dolor sl, neque explicabo officiis nam? Placeat perferendis officia facere delectus, adasd hunamaf, adasd bah bah. Compre nossos produtos!</label>
 
-  
+<WhoMarcia />
+
 </div>
 
 

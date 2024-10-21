@@ -1,3 +1,4 @@
+import Fim from './Fim'
 import './Resto.css'
 
 function Resto() {
@@ -17,7 +18,9 @@ function Resto() {
 <img className='CAMISAS' src="public/Images/CAMISAS.png" alt="" />
 
 
+
 </div>
+
 
 
       
@@ -28,6 +31,7 @@ function Resto() {
 
       
     </div>
+    
   )
 }
 
