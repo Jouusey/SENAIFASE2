@@ -1,5 +1,6 @@
 
 import "./Header.css"
+import Logo from "./Logo"
 
 
 function Header() {
@@ -12,11 +13,10 @@ function Header() {
 
       <div className="Header-ContainerEsquerda"></div>
 
-
-      <img className='Logo-FARMARCIACOMPLETO' src="./Images/FARMARCIACOMPLETO.png" alt="" />
-
+      <Logo />
 
       <div className="Header-ContainerDireita"></div>
+
 
 
     </div>

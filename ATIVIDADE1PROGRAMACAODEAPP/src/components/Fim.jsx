@@ -16,7 +16,7 @@ function Fim() {
 
 <label className='lblFim'>FARMARCIA, AJUDANDO O FUTURO</label>
 
-<img className='LogoFim' src="public/Images/FARMARCIALOGOPEQUENA.png" alt="" />
+<img className='LogoFim' src="public\Images\FARMARCIALOGOPEQUENA copy.png" alt="" />
 
 
 </div>

@@ -10,13 +10,13 @@ function App() {
   return (
     <>
 
+
+
+
     <Header />
     <Body />
-    <Logo />
     <Resto />
-    <Fim />
-    
-    
+    <Fim /> 
     </>
   )
 }

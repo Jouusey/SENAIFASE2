@@ -12,7 +12,7 @@ function Resto() {
 <div className='Resto-ContainerMeio'>
 
 
-<img className='CAMISAPRETA' src="public/Images/CAMISAPRETA.png" alt="" />
+<img className='CAMISAPRETA' src="./Images/CAMISAPRETA.png" alt="" />
 
 <img className='CAMISAS' src="public/Images/CAMISAS.png" alt="" />
 

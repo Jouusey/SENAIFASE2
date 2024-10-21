@@ -3,6 +3,7 @@
   
     background-color: rgb(230, 230, 230);
     display: flex;
+    height: 80%;
 }
 
 .Header-ContainerEsquerda{
@@ -27,3 +28,4 @@
     font-family: "FarmarciaFonte";
 
 }
+
