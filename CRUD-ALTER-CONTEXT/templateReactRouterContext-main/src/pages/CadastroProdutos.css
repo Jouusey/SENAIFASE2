@@ -1,0 +1,13 @@
+.produto-container{
+
+    border: 3px solid rgb(72, 30, 171);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.produtos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
