@@ -97,24 +97,7 @@ function calcularDias() {
 
           <label className='lblDias'>QUANTOS DIAS PLANEJA FICAR?</label>
           
-           <input className='inptDias' type="number" 
-           value={inputDiasHospedados}
-           onChange={diasHospedados} />
-          
-          </div>
-
-          <div className="exercicio-esquerda-resto">
-
-          <button onClick={calcularDias} className='btnExercicio-Esquerda'>CALCULAR VALOR</button>
-
-          </div>
-
-          <div className="exercicio-esquerda-resultado">
-
-{resultado}
-
-{detalhes}
-
+         
           </div>
 
       </div>

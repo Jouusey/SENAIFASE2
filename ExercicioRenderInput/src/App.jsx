@@ -17,7 +17,6 @@ function App() {
     <div className="exercicio-container">
 
             <ExercicioBlocoEsquerda />
-            <ExercicioBlocoDireita />
 
     </div>
     </>
